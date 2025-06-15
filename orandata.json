@@ -1,0 +1,11 @@
+[
+  {
+    "lig": "Süper Lig",
+    "mac": "Fenerbahçe - Galatasaray",
+    "oranlar": [
+      {"site": "Bookie", "1": 2.55, "X": 3.20, "2": 2.90},
+      {"site": "Digitain", "1": 2.60, "X": 3.25, "2": 2.85},
+      {"site": "XOX", "1": 2.52, "X": 3.25, "2": 2.95}
+    ]
+  }
+]
