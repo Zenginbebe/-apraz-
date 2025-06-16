@@ -1,0 +1,1 @@
+Bu dosyalar GitHub Pages'e doğrudan yüklenebilir.

@@ -1,0 +1,1 @@
+// localStorage ayarları buraya gelecek

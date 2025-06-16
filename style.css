@@ -1,0 +1,5 @@
+body { background:#111; color:#eee; font-family:Arial,sans-serif; margin:0; padding:0; }
+.sutunlar { display:flex; justify-content:space-around; padding:20px; flex-wrap:wrap; }
+.sutun { background:#222; padding:15px; margin:10px; border-radius:10px; width:30%; min-width:280px; }
+.kategori { font-weight:bold; margin-top:10px; }
+.oranlar { padding:5px 0; }
