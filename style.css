@@ -1,0 +1,9 @@
+body { background: #111; color: #eee; font-family: sans-serif; margin: 0; padding: 0; }
+.container { display: flex; flex-wrap: wrap; justify-content: center; padding: 20px; }
+.card {
+  background: #222; border-radius: 10px; margin: 10px; padding: 15px;
+  width: 30%; min-width: 280px; box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+.card h3 { margin-top: 0; font-size: 1.2em; }
+.card .section-title { font-weight: bold; margin: 10px 0 5px; }
+.card .value-line { margin: 5px 0; }
