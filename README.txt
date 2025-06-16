@@ -1,0 +1,1 @@
+Bu sistem Web2Apk ya da Android Studio ile APK'ye çevrilebilir.

@@ -1,0 +1,1 @@
+// localStorage ile site ismi ve URL kaydı
