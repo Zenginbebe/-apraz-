@@ -1,1 +1,0 @@
-// veri çekme ve eşleştirme yapısı buraya eklenecek
