@@ -1,1 +1,0 @@
-// JSON veri yapısı ya da veri çekme modülü
