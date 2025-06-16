@@ -1,0 +1,1 @@
+Bu proje sıfırdan kurulabilir. Tüm dosyaları GitHub repo köküne atın.

@@ -1,0 +1,1 @@
+// localStorage ile site adı ve URL yönetimi
