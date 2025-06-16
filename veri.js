@@ -1,1 +1,0 @@
-// JSON veri modeli + filtre + tarih kontrolü
