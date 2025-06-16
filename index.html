@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lig ve Site Ayarları</title>
+  <style>
+    body {
+      background-color: #111;
+      color: #eee;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .section {
+      margin-bottom: 30px;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+    input {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      background: #222;
+      color: #fff;
+      border: 1px solid #444;
+      border-radius: 4px;
+    }
+    button {
+      background-color: #28a745;
+      color: white;
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      display: block;
+      margin: 30px auto 0;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Lig ve Site Ayarları</h1>
+
+  <div class="section">
+    <label for="ligler">Ligleri Virgülle Ayırarak Yaz:</label>
+    <input type="text" id="ligler" placeholder="Premier League, Serie A, Bundesliga">
+  </div>
+
+  <div class="section">
+    <label for="site1">Site 1 Adı:</label>
+    <input type="text" id="site1" value="Bookie">
+    <label for="url1">Site 1 URL:</label>
+    <input type="text" id="url1" value="https://cutt.ly/YeZEEEYo">
+
+    <label for="site2">Site 2 Adı:</label>
+    <input type="text" id="site2" value="Digitain">
+    <label for="url2">Site 2 URL:</label>
+    <input type="text" id="url2" value="http://rebrand.ly/grand2025">
+
+    <label for="site3">Site 3 Adı:</label>
+    <input type="text" id="site3" value="XOX">
+    <label for="url3">Site 3 URL:</label>
+    <input type="text" id="url3" value="https://cutt.ly/Ye01y5Zx">
+  </div>
+
+  <button onclick="kaydet()">Kaydet ve Devam Et</button>
+
+  <script>
+    function kaydet() {
+      const ligler = document.getElementById("ligler").value;
+      const site1 = document.getElementById("site1").value;
+      const site2 = document.getElementById("site2").value;
+      const site3 = document.getElementById("site3").value;
+      const url1 = document.getElementById("url1").value;
+      const url2 = document.getElementById("url2").value;
+      const url3 = document.getElementById("url3").value;
+
+      localStorage.setItem("ligler", ligler);
+      localStorage.setItem("site1", site1);
+      localStorage.setItem("site2", site2);
+      localStorage.setItem("site3", site3);
+      localStorage.setItem("url1", url1);
+      localStorage.setItem("url2", url2);
+      localStorage.setItem("url3", url3);
+
+      window.location.href = "oranlar.html";
+    }
+  </script>
+
+</body>
+</html>
