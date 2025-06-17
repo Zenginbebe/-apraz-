@@ -1,0 +1,8 @@
+body { background:#111; color:#eee; font-family:sans-serif; margin:0; padding:20px; }
+.top-section { text-align:center; margin-bottom:20px; }
+.top-section input[type="date"], .top-section button { font-size:16px; padding:5px 10px; }
+.columns { display:flex; justify-content:space-between; gap:10px; }
+.column { flex:1; background:#222; padding:10px; border:1px solid #444; }
+.column input { width:100%; padding:5px; margin-bottom:10px; background:#333; color:white; border:none; }
+.column h2 { text-align:center; margin:0 0 10px; }
+.match-title { background:#333; text-align:center; padding:8px; margin-bottom:10px; font-weight:bold; }
