@@ -1,1 +1,0 @@
-// URL kontrolü, oran vurgusu, localStorage kayıt sistemi vs.
